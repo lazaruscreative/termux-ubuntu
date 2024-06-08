@@ -30,7 +30,7 @@ Script to install Ubuntu in Termux.
 Download and execute the installer script (**install-ubuntu.sh**) or copy and paste below commands in **Termux**.
 
 ```
-apt-get update -y && apt-get install wget -y && wget -O install-ubuntu.sh https://raw.githubusercontent.com/jorexdeveloper/termux-ubuntu/main/install-ubuntu.sh && bash install-ubuntu.sh
+apt-get update -y && apt-get install wget -y && wget -O install-ubuntu.sh https://raw.githubusercontent.com/lazaruscreative/termux-ubuntu/main/install-ubuntu.sh && bash install-ubuntu.sh
 ```
 
 The program also displays help information with option `-h` or `--help` to guide you further.
