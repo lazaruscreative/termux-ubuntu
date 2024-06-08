@@ -138,7 +138,8 @@ _DOWNLOAD_ROOTFS_ARCHIVE() {
 			fi
 			rm -f "${ARCHIVE_NAME}" && _PRINT_MESSAGE "Deleted successfully" || _PRINT_ERROR_EXIT "Failed to delete"
 		fi
-		_PRINT_TITLE "Downloading rootfs archive"
+		_PRINT_TITLE "Downloading rootfs archive" N
+                _PRINT_MESSAGE "base url:  ${BASE_URL}" N
 		wget --no-verbose --continue --show-progress --output-document="${ARCHIVE_NAME}" "${BASE_URL}/${ARCHIVE_NAME}" && _PRINT_MESSAGE "Download complete" || _PRINT_ERROR_EXIT "Failed to download rootfs archive" 1
 	fi
 }
