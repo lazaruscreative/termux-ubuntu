@@ -676,7 +676,7 @@ SCRIPT_REPOSITORY="termux-ubuntu"
 
 # Static info
 ROOT_PASSWD="root"
-CODE_NAME="kinetic"
+CODE_NAME="jammy"
 DISTRO_NAME="Ubuntu"
 TERMUX_FILES_DIR="/data/data/com.termux/files"
 BASE_URL="https://partner-images.canonical.com/core/${CODE_NAME}/current"
@@ -716,6 +716,7 @@ _CHECK_DEPENDENCIES
 # Arch dependent variables
 DEFAULT_ROOTFS_DIRECTORY="ubuntu-${SYS_ARCH}"
 ARCHIVE_NAME="ubuntu-${CODE_NAME}-core-cloudimg-${SYS_ARCH}-root.tar.gz"
+
 # MANIFEST_NAME="ubuntu-${CODE_NAME}-core-cloudimg-${SYS_ARCH}.manifest"
 
 # Set installation directory (must be within Termux to prevent permission issues)
