@@ -679,7 +679,8 @@ ROOT_PASSWD="root"
 CODE_NAME="jammy"
 DISTRO_NAME="Ubuntu"
 TERMUX_FILES_DIR="/data/data/com.termux/files"
-BASE_URL="https://partner-images.canonical.com/core/${CODE_NAME}/current"
+#BASE_URL="https://partner-images.canonical.com/core/${CODE_NAME}/current"
+BASE_URL="https://cloud-images.ubuntu.com/releases/noble/release/ubuntu-24.04-server-cloudimg-arm64-root.tar.xz"
 
 # Color supported terminals
 case "${TERM}" in
